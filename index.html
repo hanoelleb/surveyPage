@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+	<link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <form>
+            <h1>Survey</h1>
+
+            <h2>Personal Info</h2>
+	    <label>Name</label>
+	    <br>
+            <input type='text' placeholder='Your name/nickname'>
+	    <br>
+
+	    <label>Email</label>
+	    <br>
+	    <input type='email' placeholder='Your email'>
+	    <br>
+
+	    <label>Age</label>
+	    <br>
+            <input type='number' default='18'>
+	    <br>
+
+            <h2>Programming</h2>
+            <h3>How long have you been programming? (in years, put 0 if less than 1 year)</h3>
+	    <input type='number' id='age'>
+	    <br>
+
+	    <h3>What types of languages have you used?</h3>
+	    <input type='checkbox' name='used' id='oop' value='oop'>
+	    <label for='oop'>Object Oriented</label>
+	    <br>
+
+	    <input type='checkbox' name='used' id='proc' value='proc'>
+            <label for='proc'>Procedural</label>
+	    <br>
+
+	    <input type='checkbox' name='used' id='func' value='func'>
+            <label for='func'>Functional</label>
+	    <br>
+
+	    <input type='checkbox' name='used' id='db' value='db'>
+            <label for='db'>Database</label>
+	    <br>
+
+
+	    <h3>What's your favorite programming language?</h3>
+            <input name='favorite' id='java' type='radio' value='java'>
+	    <label for='java'>Java</label>
+	    <br>
+
+            <input name='favorite' id='js' type='radio' value='js'>
+            <label for='js'>Javascript</label>
+	    <br>
+
+            <input name='favorite' id='python' type='radio' value='python'>
+            <label for='python'>Python</label>
+	    <br>
+
+	    <input name='favorite' id='csharp' type='radio' value='csharp'>
+            <label for='csharp'>C#</label>
+            <br>
+
+	    <input name='favorite' id='cplusplus' type='radio' value='cplusplus'>
+            <label for='cplusplus'>C++</label>
+            <br>
+
+	    <input name='favorite' id='java' type='radio' value='java'>
+            <label for='java'>C</label>
+            <br>
+
+	    <input name='favorite' id='java' type='radio' value='java'>
+            <label for='java'>Ruby</label>
+            <br>
+	     
+	    <input name='favorite' id='java' type='radio' value='java'>
+            <label for='java'>Other</label>
+            <br>
+
+	    <h3>What do you like about your favorite language?</h3>
+	    <textarea rows='8' cols='60'></textarea>
+
+	    <h2>Interests</h2>
+	    <h3>Which of the following fields do you have interest in?</h3>
+
+	    <input type='checkbox' name='interest' id='web' value='web'> 
+	    <label for='web'>Web Development</label>
+	    <br>
+
+	    <input type='checkbox' name='interest' id='game' value='game'>
+            <label for='game'>Game Development</label>
+	    <br>
+
+	    <input type='checkbox' name='interest' id='app' value='app'>
+            <label for='app'>App Development</label>
+            <br>
+
+	    <input type='checkbox' name='interest' id='secure' value='secure'>
+            <label for='secure'>Cyber Security</label>
+            <br>
+
+	    <input type='checkbox' name='interest' id='data' value='data'>
+            <label for='data'>Data Science</label>
+            <br>
+
+	    <input type='checkbox' name='interest' id='dbman' value='dbman'>
+            <label for='dbman'>Database Management</label>
+            <br>
+
+	    <input type='checkbox' name='interest' id='ai' value='ai'>
+            <label for='ai'>Artificial Intelligence</label>
+            <br>
+
+            <input type='submit' value='Submit'></input>
+        </form>
+    </body>
+</html>
